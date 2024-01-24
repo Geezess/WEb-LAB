@@ -1,0 +1,51 @@
+.hotel {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin:0px;
+    overflow: scroll;
+    background: linear-gradient(319deg, #ff1493 0%, #ff8c00 100%);
+}
+
+.intro{
+    padding: 6% 0% 0% 42%;
+    color: rgb(4, 5, 0);
+}
+
+form {
+    padding-top: 20px;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+label {
+    font-size: large;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+button {
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #45a049;
+}

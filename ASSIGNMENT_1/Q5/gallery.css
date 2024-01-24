@@ -1,0 +1,33 @@
+.gallery {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin:0px;
+    overflow: scroll;
+    background: linear-gradient(319deg, #ff1493 0%, #ff8c00 100%);
+}
+
+.imgi{
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+
+  }
+
+
+  .box{
+    width: 33.34vw;
+    aspect-ratio: 1.5/1;
+  }
+
+  .box1{
+    width: 33.34vw;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }

@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="hotel.css">
+</head>
+
+<body class="hotel">
+
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="heritage.html">Heritage</a></li>
+        <li><a href="hotel.html">Hotel</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+
+    <h2 class="intro">BOOK YOUR HOTEL</h2>
+
+    <form action="">
+        <label for="guestName">Guest Name:</label>
+        <input type="text" id="guestName" name="guestName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="checkInDate">Check-in Date:</label>
+        <input type="date" id="checkInDate" name="checkInDate" required>
+
+        <label for="checkOutDate">Check-out Date:</label>
+        <input type="date" id="checkOutDate" name="checkOutDate" required>
+
+        <label for="numOfGuests">Number of Guests:</label>
+        <select id="numOfGuests" name="numOfGuests" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+
+        <button type="submit">Submit Booking</button>
+    </form>
+
+</body>
+
+</html>
